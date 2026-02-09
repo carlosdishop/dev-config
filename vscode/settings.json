@@ -1,0 +1,11 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Evondev Dracula Normal Contrast",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "terminal.external.osxExec": "Warp.app",
+    "files.autoSave": "afterDelay",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.sideBar.location": "right"
+}

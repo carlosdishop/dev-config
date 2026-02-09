@@ -1,0 +1,32 @@
+[user]
+	name = carlosdishop
+	email = carlos@ciggy-app.com
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[core]
+	editor = cursor --wait
+	autocrlf = input
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	cm = commit
+	lg = log --oneline --graph --decorate --all
+	last = log -1 HEAD
+	undo = reset --soft HEAD~1
+	amend = commit --amend --no-edit
