@@ -9,6 +9,7 @@ cask "google-chrome"
 
 # Development Tools
 cask "android-studio"
+cask "claude-code"
 cask "cursor"
 cask "expo-orbit"
 cask "github"
